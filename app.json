@@ -7,6 +7,13 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "width":"100%",
+      "height":"100%",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -28,9 +35,10 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "width":"100%",
+          "height":"100%",
+          "resizeMode": "cover",
+          "backgroundColor": "#000000"
         }
       ]
     ],
